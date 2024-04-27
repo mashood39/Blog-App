@@ -1,0 +1,18 @@
+.share button {
+    position: fixed;
+    bottom: 5vw;
+    right: 7vw;
+    background-color: #f1356d;
+    border: none;
+    /* padding: 10px 20px; */
+    cursor: pointer;
+    border-radius: 100% 60% / 60% 100%;
+    width: 5vw;
+    height: 5vw;
+    font-size: 2vw;
+
+}
+
+.share button:hover {
+    background-color: #e00346;
+}
