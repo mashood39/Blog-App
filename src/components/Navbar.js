@@ -12,7 +12,7 @@ function Navbar() {
   return (
 
     <nav className="navbar">
-      <h1>The Blog</h1>
+      <h1>Tech Savy</h1>
       <div className="btn">
         <Link to="/admin" style={{
           paddingRight: "20px"
