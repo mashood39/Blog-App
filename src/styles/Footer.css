@@ -1,5 +1,4 @@
-.footer {
-    /* text-align: center; */
+/* .footer {
     border-top: 1px solid #eecfcf;
     height: 8vw;
     display: flex;
@@ -7,7 +6,21 @@
     margin: 0 auto;
     flex-direction: column;
     justify-content: space-around;
+    position: fixed;
     
+} */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #eecfcf;
+    height: 6vw;
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;      
 }
-
-
