@@ -1,20 +1,13 @@
 .footer {
-    /* max-width: 60%; */
-    /* margin: 0 auto; */
-    /* margin-top: auto; */
-    border-top: 1px solid #f0e2e2;
+    /* text-align: center; */
+    border-top: 1px solid #eecfcf;
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-around;
     
 }
 
-.icons {
-    margin: 5% 40%;
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-}
 
-.footer .icon {
-    width: 4vw;
-    height: 4vw;
-
-}

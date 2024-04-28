@@ -1,14 +1,9 @@
 import '../styles/Footer.css'
-import { FiInstagram } from "react-icons/fi";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
   return (
     <div className='footer'>
-      <div className="icons">
-        <FiInstagram className='icon' />
-        <FaLinkedinIn className='icon'/>
-      </div>
+      <p>Copyright © 2024. All Rights Reserved by <span style={{color: 'red' , fontWeight: 600}}>Tech Savy</span></p>
     </div>
   )
 }
