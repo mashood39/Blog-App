@@ -18,7 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="preview/:id" element={<Preview />} />
           <Route path="category/:category" element={<Category />} />
-          <Route path='/admin' element={<Admin />} />
+          {/* <Route path='/admin' element={<Admin />} /> */}
         </Routes>
         <ShareButton />
         <Footer />

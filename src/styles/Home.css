@@ -1,14 +1,12 @@
 .home{
-    /* max-width: 60%; */
+    width: 75%;
     /* background-color: bisque; */
-    /* margin: 0% auto;  */
+    margin: 0 auto; 
+    /* background-color: green; */
 
 }
 
-.home h1{
-    margin: 2vw 5vw 0vw;
-    /* background-color: aquamarine; */
-}
+
 
 .blogList{
     /* margin: 2vw 6vw;   */
@@ -30,10 +28,7 @@
 }
 
 .blog-subtitle{
-    padding-bottom:1vh ;
-    margin: 0vw 0;
+    /* padding-bottom:1vh ; */
+    /* margin: 0vw 0; */
 }
 
-a {
-    /* text-decoration: none; */
-}

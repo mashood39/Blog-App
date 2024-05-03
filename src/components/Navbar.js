@@ -12,11 +12,15 @@ function Navbar() {
   return (
 
     <nav className="navbar">
-      <h1>Tech Savy</h1>
+
+      <div className="icon">
+        <h1>Tech Savy</h1>
+      </div>
+
       <div className="btn">
-        <Link to="/admin" style={{
+        {/* <Link to="/admin" style={{
           paddingRight: "20px"
-        }}>Admin</Link>
+        }}>Admin</Link> */}
 
         <Link to="/" className='home' style={{
           color: 'white',
@@ -37,8 +41,6 @@ function Navbar() {
               </div>
             ))}
           </div>
-
-
 
         </div>
 
